@@ -3,6 +3,9 @@
     "ecmaVersion": 2015
   },
   "extends": ["eslint:recommended"],
+  "globals": {
+    "$db": "readonly"
+  },
   "env": {
     "browser": true,
     "node": true
